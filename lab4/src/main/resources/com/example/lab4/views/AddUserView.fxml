@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="200.0" prefWidth="339.0" stylesheets="@../css/style.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.lab4.controller.AddUserController">
+   <children>
+      <BorderPane layoutX="41.0" layoutY="23.0" prefHeight="145.0" prefWidth="262.0">
+         <top>
+            <TextField id="firstNameTextField" fx:id="firstNameTextField" prefHeight="0.0" prefWidth="262.0" promptText="Prenume" BorderPane.alignment="CENTER" />
+         </top>
+         <center>
+            <TextField id="lastNameTextField" fx:id="lastNameTextField" prefHeight="25.0" prefWidth="292.0" promptText="Nume" BorderPane.alignment="CENTER" />
+         </center>
+         <bottom>
+            <Button mnemonicParsing="false" onAction="#handleAddUser" text="Adauga" BorderPane.alignment="CENTER" />
+         </bottom>
+      </BorderPane>
+   </children>
+</AnchorPane>
